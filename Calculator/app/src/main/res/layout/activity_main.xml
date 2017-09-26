@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miras.calculator.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="322dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/bnClickNumber1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/bnClickNumber2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="2"
+        android:layout_alignBaseline="@id/bnClickNumber1"
+        android:layout_toEndOf="@id/bnClickNumber1"/>
+
+    <Button
+        android:id="@+id/bnClickNumber3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="3"
+        android:layout_alignBaseline="@id/bnClickNumber1"
+        android:layout_toEndOf="@id/bnClickNumber2"/>
+
+    <Button
+        android:id="@+id/bnClickNumber4"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="4"
+        android:layout_below="@+id/bnClickNumber1"
+        android:layout_alignStart="@+id/bnClickNumber1"/>
+
+    <Button
+        android:id="@+id/bnClickNumber5"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="5"
+        android:layout_alignBaseline="@id/bnClickNumber4"
+        android:layout_toEndOf="@id/bnClickNumber4"/>
+
+    <Button
+        android:id="@+id/bnClickNumber6"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="6"
+        android:layout_alignBaseline="@id/bnClickNumber4"
+        android:layout_toEndOf="@id/bnClickNumber5" />
+
+    <Button
+        android:id="@+id/bnClickNumber7"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="7"
+        android:layout_below="@+id/bnClickNumber4"
+        android:layout_alignStart="@+id/bnClickNumber1" />
+
+    <Button
+        android:id="@+id/bnClickNumber8"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="8"
+        android:layout_alignBaseline="@+id/bnClickNumber7"
+        android:layout_toEndOf="@+id/bnClickNumber7" />
+
+    <Button
+        android:id="@+id/bnClickNumber9"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="9"
+        android:layout_toEndOf="@+id/bnClickNumber8"
+        android:layout_alignBaseline="@+id/bnClickNumber7"/>
+
+    <Button
+        android:id="@+id/bnClickAddition"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:layout_toEndOf="@+id/bnClickNumber3"
+        android:layout_alignBaseline="@+id/bnClickNumber1"/>
+
+    <Button
+        android:id="@+id/bnClickSubtraction"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:layout_toEndOf="@+id/bnClickNumber6"
+        android:layout_alignBaseline="@+id/bnClickNumber4"/>
+
+    <Button
+        android:id="@+id/bnClickMultiplication"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="*"
+        android:layout_toEndOf="@+id/bnClickNumber9"
+        android:layout_alignBaseline="@+id/bnClickNumber7"/>
+
+    <Button
+        android:id="@+id/bnClickClear"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="C"
+        android:layout_below="@id/bnClickNumber7"
+        android:layout_alignStart="@id/bnClickNumber7"/>
+
+    <Button
+        android:id="@+id/bnClickNumber0"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="0"
+        android:layout_toEndOf="@id/bnClickClear"
+        android:layout_alignBaseline="@id/bnClickClear"/>
+
+    <Button
+        android:id="@+id/bnClickResult"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="="
+        android:layout_toEndOf="@id/bnClickNumber0"
+        android:layout_alignBaseline="@id/bnClickClear"/>
+
+    <Button
+        android:id="@+id/bnClickDivision"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="/"
+        android:layout_toEndOf="@id/bnClickResult"
+        android:layout_alignBaseline="@id/bnClickClear"/>
+
+</android.widget.RelativeLayout>
