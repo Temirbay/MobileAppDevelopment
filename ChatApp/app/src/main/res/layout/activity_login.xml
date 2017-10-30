@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miras.chatapp.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:hint="Login"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="23dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_alignTop="@+id/editLogin"
+        android:layout_alignStart="@+id/editLogin"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_below="@+id/editPassword"
+        android:layout_alignStart="@+id/editPassword"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_alignBaseline="@+id/login"
+        android:layout_alignBottom="@+id/login"
+        android:layout_alignEnd="@+id/editPassword" />
+</RelativeLayout>
