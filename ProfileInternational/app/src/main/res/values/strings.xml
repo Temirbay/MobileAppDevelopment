@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">England Player</string>
+    <string name="viewName">Harry Kane</string>
+    <string name="viewInformation">Harry Edward Kane is an English professional
+        footballer who plays as a forward for Premier League club
+        Tottenham Hotspur and the England national team.</string>
+</resources>

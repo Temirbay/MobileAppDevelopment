@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miras.paintpencil.MainActivity">
+
+    <com.example.miras.paintpencil.PaintBoard
+        android:id="@+id/paint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Reset"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:id="@+id/bnColorPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bnReset"
+        android:layout_alignBottom="@+id/bnReset"
+        android:text="Pick Color"
+        android:layout_toEndOf="@+id/bnReset"
+        android:layout_marginStart="20dp" />
+</RelativeLayout>

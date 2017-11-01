@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Joueur français</string>
+    <string name="viewName">Paul Pogba</string>
+    <string name="viewInformation">Paul Pogba, à Lagny-sur-Marne2 en Seine-et-Marne,
+        est un joueur de football international français évoluant en Premier League au poste
+        de milieu de terrain au Manchester United.</string>
+</resources>
