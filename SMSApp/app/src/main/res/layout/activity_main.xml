@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miras.smsapp.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:hint="Phone number"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/editTextNumber"
+        android:gravity="top|left"
+        android:hint="Enter a text"/>
+
+    <Button
+        android:id="@+id/bnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_marginBottom="23dp"
+        android:layout_alignBottom="@+id/editTextContent"
+        android:layout_alignEnd="@+id/editTextContent"
+        android:layout_marginEnd="22dp" />
+
+</RelativeLayout>
