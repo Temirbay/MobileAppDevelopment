@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by Miras on 25.10.2017.
- */
 
 public class Umbrella extends View {
 
